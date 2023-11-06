@@ -1,11 +1,22 @@
 body {
     margin: 0;
+    background: rgb(45, 211, 111);
 }
 
 .centralize {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.form-field {
+    margin-bottom: 10px;
+}
+
+input,
+button {
+   padding: 10px;
+   width: -webkit-fill-available;
 }
 
 .loading {
